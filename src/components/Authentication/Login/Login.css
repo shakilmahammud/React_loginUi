@@ -1,0 +1,38 @@
+.loginSection::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    background:rgba(51, 51, 51, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.form-demo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.form-demo .card {
+    min-width: 450px;
+}
+.form-demo .card form {
+    margin-top: 2rem;
+}
+.form-demo .card .p-field {
+    margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+    .form-demo .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-demo .card {
+        width: 100%;
+        min-width: 0;
+    }
+}
+            
